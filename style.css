@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+body{
+height: 100vh;
+opacity: 0.7;
+}
+
+
+.header-footer-img{
+    background-image: url(./img/bg.jpg);
+    width: 100%;
+    min-height: 100%;
+    /* height: auto; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text{
+    font-size: 3rem;
+    letter-spacing: 0.5rem; /*letter spacing */
+    text-align: center;
+    color: #fff;
+}
+
+.header-footer-text{
+    background-color: blacK;
+    padding: 2rem;
+    border-top-left-radius: 2rem ;
+    border-bottom-right-radius: 2rem ;
+    /* adding outline */
+    outline: 10px inset purple;
+    outline-offset: 1rem;
+}
+.content h2{
+    margin: 1rem;
+}
+.content p{
+    font-size: 1.1rem;
+}
+.content{
+    text-align: center;
+    line-height: 1.8rem;
+    padding:3rem 5rem;
+
+}
+
+.content-gray{
+    background-color: lightgray;
+}
+
+.image{
+    width: 100%;
+    height: 80%;
+    /* height: auto; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo{
+    background-image: url(./img/bg2.jpg);
+}
+
+.logo img{
+    width:30%;
+}
+
+.content-black{
+    background-color: black;
+    color: white;
+}
+
