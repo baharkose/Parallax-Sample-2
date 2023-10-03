@@ -67,7 +67,8 @@ opacity: 0.7;
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
-    background-attachment: fixed;
+    background-attachment: fixed; 
+    /* parallax özelliği bu şekilde geliyor */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -85,4 +86,19 @@ opacity: 0.7;
     background-color: black;
     color: white;
 }
+.mid-text1 p,
+.mid-text2 p{
+    background-color: black;
+    padding:0.5rem;
+    border-top-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    outline: 7px inset purple;
+    outline-offset:0.3rem;
+}
 
+.mid-text1{
+    background-image: url(./img/bg3.jpg);
+}
+.mid-text2{
+    background-image: url(./img/bg4.jpg);
+}
