@@ -102,3 +102,16 @@ opacity: 0.7;
 .mid-text2{
     background-image: url(./img/bg4.jpg);
 }
+.fa-arrow-up{
+    position:fixed;
+    bottom:1rem;
+    right: 1rem;
+    background-color: black;
+    padding:19px 20px;
+   font-weight: 1000;
+    color: #fff;
+    border-radius: 50%;
+}
+.fa-arrow-up:hover{
+    opacity: 0.7;
+}
